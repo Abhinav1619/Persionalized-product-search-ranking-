@@ -43,6 +43,7 @@ class SearchResponse(BaseModel):
     results: list[SearchResultItem]
     suggestions: list[str] = Field(default_factory=list)
     facets: dict[str, Any] = Field(default_factory=dict)
+    intent: dict[str, Any] | None = None
 
 
 class AutocompleteResponse(BaseModel):

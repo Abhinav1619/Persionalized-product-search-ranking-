@@ -53,3 +53,7 @@ class RankResponse(BaseModel):
     pd_at_k: float | None = None
     comparison: dict[str, Any] | None = None
     pipeline: dict[str, Any] | None = None
+    intent: dict[str, Any] | None = None
+    filtered_count: int | None = None
+    candidate_count_before_intent: int | None = None
+    history_id: str | None = None

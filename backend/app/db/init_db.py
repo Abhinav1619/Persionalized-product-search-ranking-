@@ -23,30 +23,36 @@ def _load_json(name: str) -> list | dict:
         return json.load(f)
 
 
+def _upsert_product(db: Session, p: dict) -> None:
+    row = db.get(Product, p["id"])
+    fields = dict(
+        name=p["name"],
+        brand=p["brand"],
+        category=p["category"],
+        subcategory=p.get("subcategory", ""),
+        description=p.get("description", ""),
+        price=p["price"],
+        original_price=p.get("original_price"),
+        rating=p.get("rating", 4.0),
+        review_count=p.get("review_count", 0),
+        popularity=p.get("popularity", 0.5),
+        image_url=p.get("image_url", ""),
+        attributes_json=json.dumps(p.get("attributes") or {}),
+        specs_json=json.dumps(p.get("specs") or {}),
+        tags_json=json.dumps(p.get("tags") or []),
+    )
+    if row is None:
+        db.add(Product(id=p["id"], **fields))
+    else:
+        for key, value in fields.items():
+            setattr(row, key, value)
+
+
 def seed_database(db: Session) -> None:
-    if db.query(Product).count() == 0:
-        products = _load_json("demo_products.json")
-        for p in products:
-            db.add(
-                Product(
-                    id=p["id"],
-                    name=p["name"],
-                    brand=p["brand"],
-                    category=p["category"],
-                    subcategory=p.get("subcategory", ""),
-                    description=p.get("description", ""),
-                    price=p["price"],
-                    original_price=p.get("original_price"),
-                    rating=p.get("rating", 4.0),
-                    review_count=p.get("review_count", 0),
-                    popularity=p.get("popularity", 0.5),
-                    image_url=p.get("image_url", ""),
-                    attributes_json=json.dumps(p.get("attributes") or {}),
-                    specs_json=json.dumps(p.get("specs") or {}),
-                    tags_json=json.dumps(p.get("tags") or []),
-                )
-            )
-        logger.info("Seeded %s products", len(products))
+    products = _load_json("demo_products.json")
+    for p in products:
+        _upsert_product(db, p)
+    logger.info("Synced %s products from seed file", len(products))
 
     if db.query(UserProfile).count() == 0:
         users = _load_json("demo_users.json")
