@@ -1,0 +1,10 @@
+# Optional heavy ML dependencies for real semantic embeddings + MMoE.
+# Install after the base requirements:
+#   pip install -r requirements-ml.txt
+#
+# Note: Python 3.14 may not yet have official torch wheels. Prefer Python 3.11–3.12
+# for the full semantic + MMoE stack. The app still runs without these packages.
+
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers>=3.0.0

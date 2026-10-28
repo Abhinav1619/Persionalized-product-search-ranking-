@@ -1,0 +1,142 @@
+[
+  {
+    "id": "demo-fitness",
+    "display_name": "Aisha (Fitness Enthusiast)",
+    "preferred_categories": [
+      "Electronics",
+      "Sports",
+      "Footwear"
+    ],
+    "preferred_brands": [
+      "SoundPulse",
+      "BeatFlex",
+      "StrideLab",
+      "FitFuel"
+    ],
+    "preferred_attributes": [
+      "gym",
+      "wireless",
+      "running"
+    ],
+    "browsing_interests": [
+      "headphones",
+      "running shoes",
+      "protein",
+      "fitness tracker"
+    ],
+    "recent_interactions": [
+      "p001",
+      "p004",
+      "p042",
+      "p016"
+    ],
+    "price_sensitivity": 0.55,
+    "personalization_enabled": true
+  },
+  {
+    "id": "demo-developer",
+    "display_name": "Rohan (Software Developer)",
+    "preferred_categories": [
+      "Electronics",
+      "Furniture",
+      "Home"
+    ],
+    "preferred_brands": [
+      "NovaTech",
+      "PixelForge",
+      "KeyCraft",
+      "Lumen"
+    ],
+    "preferred_attributes": [
+      "programming",
+      "lightweight",
+      "office"
+    ],
+    "browsing_interests": [
+      "laptop",
+      "keyboard",
+      "desk lamp",
+      "ergonomic chair"
+    ],
+    "recent_interactions": [
+      "p007",
+      "p024",
+      "p022",
+      "p023"
+    ],
+    "price_sensitivity": 0.4,
+    "personalization_enabled": true
+  },
+  {
+    "id": "demo-skincare",
+    "display_name": "Meera (Skincare Focused)",
+    "preferred_categories": [
+      "Beauty"
+    ],
+    "preferred_brands": [
+      "DermaPure",
+      "GlowLab"
+    ],
+    "preferred_attributes": [
+      "oily",
+      "skincare",
+      "sunscreen"
+    ],
+    "browsing_interests": [
+      "oily skin",
+      "niacinamide",
+      "sunscreen",
+      "face wash"
+    ],
+    "recent_interactions": [
+      "p010",
+      "p011",
+      "p026"
+    ],
+    "price_sensitivity": 0.65,
+    "personalization_enabled": true
+  },
+  {
+    "id": "demo-formal",
+    "display_name": "Vikram (Office Professional)",
+    "preferred_categories": [
+      "Footwear",
+      "Fashion",
+      "Furniture"
+    ],
+    "preferred_brands": [
+      "UrbanSole",
+      "Boardroom",
+      "ErgoSit"
+    ],
+    "preferred_attributes": [
+      "office",
+      "formal",
+      "leather"
+    ],
+    "browsing_interests": [
+      "formal shoes",
+      "office bag",
+      "office chair"
+    ],
+    "recent_interactions": [
+      "p013",
+      "p014",
+      "p029",
+      "p023"
+    ],
+    "price_sensitivity": 0.45,
+    "personalization_enabled": true
+  },
+  {
+    "id": "demo-guest",
+    "display_name": "Guest Shopper",
+    "preferred_categories": [],
+    "preferred_brands": [],
+    "preferred_attributes": [],
+    "browsing_interests": [],
+    "recent_interactions": [],
+    "price_sensitivity": 0.5,
+    "personalization_enabled": false
+  }
+]

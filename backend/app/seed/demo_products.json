@@ -1,0 +1,1441 @@
+[
+  {
+    "id": "p001",
+    "name": "AeroFit Wireless Gym Headphones",
+    "brand": "SoundPulse",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Sweat-resistant Bluetooth headphones with secure ear hooks, designed for intense gym workouts and outdoor runs.",
+    "price": 3499,
+    "original_price": 4999,
+    "rating": 4.5,
+    "review_count": 2140,
+    "popularity": 0.88,
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+    "attributes": {
+      "use_case": "gym",
+      "wireless": true,
+      "color": "black"
+    },
+    "specs": {
+      "Battery": "24h",
+      "Bluetooth": "5.3",
+      "Weight": "48g"
+    },
+    "tags": [
+      "wireless",
+      "headphones",
+      "gym",
+      "bluetooth"
+    ]
+  },
+  {
+    "id": "p002",
+    "name": "BeatFlex Sport Earbuds Pro",
+    "brand": "BeatFlex",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Lightweight true wireless earbuds with IPX7 rating and bass-boost EQ for gym sessions under 5000 rupees.",
+    "price": 2799,
+    "original_price": 3999,
+    "rating": 4.3,
+    "review_count": 1876,
+    "popularity": 0.82,
+    "image_url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+    "attributes": {
+      "use_case": "gym",
+      "wireless": true,
+      "color": "blue"
+    },
+    "specs": {
+      "Battery": "30h case",
+      "IP Rating": "IPX7"
+    },
+    "tags": [
+      "earbuds",
+      "gym",
+      "wireless",
+      "under5000"
+    ]
+  },
+  {
+    "id": "p003",
+    "name": "StudioMax Over-Ear ANC Headphones",
+    "brand": "AudioNova",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Premium noise-cancelling over-ear headphones for travel and focused work, not intended for sweaty workouts.",
+    "price": 12999,
+    "original_price": 15999,
+    "rating": 4.7,
+    "review_count": 932,
+    "popularity": 0.75,
+    "image_url": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&q=80",
+    "attributes": {
+      "use_case": "office",
+      "anc": true,
+      "color": "silver"
+    },
+    "specs": {
+      "ANC": "Hybrid",
+      "Battery": "40h"
+    },
+    "tags": [
+      "anc",
+      "headphones",
+      "office",
+      "premium"
+    ]
+  },
+  {
+    "id": "p004",
+    "name": "TrailBlaze Beginner Running Shoes",
+    "brand": "StrideLab",
+    "category": "Footwear",
+    "subcategory": "Running",
+    "description": "Cushioned beginner running shoes with soft foam midsole for comfortable daily jogs and first-time runners.",
+    "price": 2999,
+    "original_price": 3999,
+    "rating": 4.4,
+    "review_count": 3201,
+    "popularity": 0.9,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    "attributes": {
+      "level": "beginner",
+      "use_case": "running",
+      "color": "red"
+    },
+    "specs": {
+      "Drop": "8mm",
+      "Weight": "260g"
+    },
+    "tags": [
+      "running",
+      "shoes",
+      "beginner",
+      "comfortable"
+    ]
+  },
+  {
+    "id": "p005",
+    "name": "FlexRun Comfort Trainers",
+    "brand": "FlexRun",
+    "category": "Footwear",
+    "subcategory": "Running",
+    "description": "Breathable mesh trainers ideal for beginners seeking all-day comfort on short runs and walks.",
+    "price": 2499,
+    "original_price": 3299,
+    "rating": 4.2,
+    "review_count": 1544,
+    "popularity": 0.78,
+    "image_url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80",
+    "attributes": {
+      "level": "beginner",
+      "use_case": "running",
+      "color": "grey"
+    },
+    "specs": {
+      "Upper": "Mesh",
+      "Sole": "Rubber"
+    },
+    "tags": [
+      "running",
+      "comfortable",
+      "beginners",
+      "trainers"
+    ]
+  },
+  {
+    "id": "p006",
+    "name": "Velocity Pro Racing Spikes",
+    "brand": "Velocity",
+    "category": "Footwear",
+    "subcategory": "Running",
+    "description": "Lightweight racing spikes for experienced track athletes; stiff plate not recommended for beginners.",
+    "price": 6999,
+    "original_price": 8499,
+    "rating": 4.6,
+    "review_count": 412,
+    "popularity": 0.55,
+    "image_url": "https://images.unsplash.com/photo-1551107696-a4b0c56f8b3c?w=600&q=80",
+    "attributes": {
+      "level": "advanced",
+      "use_case": "racing",
+      "color": "white"
+    },
+    "specs": {
+      "Plate": "Carbon",
+      "Weight": "150g"
+    },
+    "tags": [
+      "racing",
+      "spikes",
+      "advanced"
+    ]
+  },
+  {
+    "id": "p007",
+    "name": "CodeLite 14 Lightweight Laptop",
+    "brand": "NovaTech",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "description": "14-inch ultraportable laptop with 16GB RAM and SSD, built for programming, student projects and remote work.",
+    "price": 54999,
+    "original_price": 64999,
+    "rating": 4.6,
+    "review_count": 2105,
+    "popularity": 0.86,
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80",
+    "attributes": {
+      "use_case": "programming",
+      "weight_class": "lightweight",
+      "ram": "16GB"
+    },
+    "specs": {
+      "CPU": "Intel i5",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Weight": "1.3kg"
+    },
+    "tags": [
+      "laptop",
+      "programming",
+      "lightweight",
+      "coding"
+    ]
+  },
+  {
+    "id": "p008",
+    "name": "DevBook Air Slim Notebook",
+    "brand": "PixelForge",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "description": "Thin and light developer notebook with long battery life for coding on the go.",
+    "price": 62999,
+    "original_price": 69999,
+    "rating": 4.5,
+    "review_count": 988,
+    "popularity": 0.8,
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
+    "attributes": {
+      "use_case": "programming",
+      "weight_class": "lightweight",
+      "ram": "16GB"
+    },
+    "specs": {
+      "CPU": "Ryzen 5",
+      "RAM": "16GB",
+      "Storage": "1TB SSD",
+      "Weight": "1.2kg"
+    },
+    "tags": [
+      "laptop",
+      "coding",
+      "lightweight",
+      "developer"
+    ]
+  },
+  {
+    "id": "p009",
+    "name": "GameForge RTX Desktop",
+    "brand": "GameForge",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "description": "High-power gaming desktop replacement laptop with discrete GPU; heavier chassis for enthusiasts.",
+    "price": 98999,
+    "original_price": 109999,
+    "rating": 4.7,
+    "review_count": 654,
+    "popularity": 0.72,
+    "image_url": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=600&q=80",
+    "attributes": {
+      "use_case": "gaming",
+      "weight_class": "heavy",
+      "gpu": "RTX"
+    },
+    "specs": {
+      "GPU": "RTX 4060",
+      "RAM": "32GB",
+      "Weight": "2.4kg"
+    },
+    "tags": [
+      "gaming",
+      "laptop",
+      "rtx",
+      "heavy"
+    ]
+  },
+  {
+    "id": "p010",
+    "name": "ClearSkin Oil-Control Gel",
+    "brand": "DermaPure",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Lightweight niacinamide gel moisturizer formulated for oily and acne-prone skin types.",
+    "price": 599,
+    "original_price": 799,
+    "rating": 4.4,
+    "review_count": 5402,
+    "popularity": 0.92,
+    "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+    "attributes": {
+      "skin_type": "oily",
+      "concern": "oil-control"
+    },
+    "specs": {
+      "Size": "50ml",
+      "Key Ingredient": "Niacinamide"
+    },
+    "tags": [
+      "skincare",
+      "oily",
+      "niacinamide",
+      "gel"
+    ]
+  },
+  {
+    "id": "p011",
+    "name": "Balance+ Mattifying Face Wash",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Gentle foaming cleanser that removes excess sebum without stripping oily skin.",
+    "price": 449,
+    "original_price": 549,
+    "rating": 4.3,
+    "review_count": 3210,
+    "popularity": 0.85,
+    "image_url": "https://images.unsplash.com/photo-1570194065650-d99fb4b38b17?w=600&q=80",
+    "attributes": {
+      "skin_type": "oily",
+      "concern": "cleansing"
+    },
+    "specs": {
+      "Size": "100ml",
+      "Type": "Foaming"
+    },
+    "tags": [
+      "skincare",
+      "oily",
+      "facewash",
+      "cleanser"
+    ]
+  },
+  {
+    "id": "p012",
+    "name": "HydraRich Cream for Dry Skin",
+    "brand": "DermaPure",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Rich ceramide cream for dry and dehydrated skin; may feel heavy on oily skin.",
+    "price": 899,
+    "original_price": 1099,
+    "rating": 4.6,
+    "review_count": 2100,
+    "popularity": 0.7,
+    "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&q=80",
+    "attributes": {
+      "skin_type": "dry",
+      "concern": "hydration"
+    },
+    "specs": {
+      "Size": "50ml",
+      "Key Ingredient": "Ceramides"
+    },
+    "tags": [
+      "skincare",
+      "dry",
+      "cream",
+      "hydrating"
+    ]
+  },
+  {
+    "id": "p013",
+    "name": "Oxford Formal Leather Oxfords",
+    "brand": "UrbanSole",
+    "category": "Footwear",
+    "subcategory": "Formal",
+    "description": "Classic black leather oxfords suitable for office wear and formal occasions.",
+    "price": 3499,
+    "original_price": 4499,
+    "rating": 4.5,
+    "review_count": 1877,
+    "popularity": 0.81,
+    "image_url": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=600&q=80",
+    "attributes": {
+      "use_case": "office",
+      "style": "formal",
+      "color": "black"
+    },
+    "specs": {
+      "Material": "Genuine Leather",
+      "Sole": "TPR"
+    },
+    "tags": [
+      "formal",
+      "office",
+      "shoes",
+      "leather"
+    ]
+  },
+  {
+    "id": "p014",
+    "name": "Boardroom Derby Shoes",
+    "brand": "Boardroom",
+    "category": "Footwear",
+    "subcategory": "Formal",
+    "description": "Polished derby formal shoes with cushioned insole for long office days.",
+    "price": 3999,
+    "original_price": 4999,
+    "rating": 4.4,
+    "review_count": 965,
+    "popularity": 0.74,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e59630263df4?w=600&q=80",
+    "attributes": {
+      "use_case": "office",
+      "style": "formal",
+      "color": "brown"
+    },
+    "specs": {
+      "Material": "Leather",
+      "Color": "Brown"
+    },
+    "tags": [
+      "formal",
+      "office",
+      "derby",
+      "shoes"
+    ]
+  },
+  {
+    "id": "p015",
+    "name": "TrailHiker Casual Sneakers",
+    "brand": "TrailHiker",
+    "category": "Footwear",
+    "subcategory": "Casual",
+    "description": "Everyday casual sneakers for weekends; not designed as formal office footwear.",
+    "price": 2199,
+    "original_price": 2799,
+    "rating": 4.2,
+    "review_count": 2400,
+    "popularity": 0.77,
+    "image_url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
+    "attributes": {
+      "use_case": "casual",
+      "style": "sneakers",
+      "color": "white"
+    },
+    "specs": {
+      "Upper": "Canvas"
+    },
+    "tags": [
+      "casual",
+      "sneakers",
+      "weekend"
+    ]
+  },
+  {
+    "id": "p016",
+    "name": "PulseBand Fitness Tracker",
+    "brand": "FitPulse",
+    "category": "Electronics",
+    "subcategory": "Wearables",
+    "description": "Track steps, heart rate and gym workouts with 7-day battery.",
+    "price": 2499,
+    "original_price": 3499,
+    "rating": 4.3,
+    "review_count": 4200,
+    "popularity": 0.84,
+    "image_url": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Display": "AMOLED"
+    },
+    "tags": [
+      "fitness",
+      "tracker",
+      "gym"
+    ]
+  },
+  {
+    "id": "p017",
+    "name": "YogaFlow Mat Pro",
+    "brand": "YogaFlow",
+    "category": "Sports",
+    "subcategory": "Yoga",
+    "description": "Extra-grip yoga mat with alignment markers for home practice.",
+    "price": 1299,
+    "original_price": 1799,
+    "rating": 4.5,
+    "review_count": 3100,
+    "popularity": 0.79,
+    "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80",
+    "attributes": {
+      "use_case": "yoga"
+    },
+    "specs": {
+      "Thickness": "6mm"
+    },
+    "tags": [
+      "yoga",
+      "mat",
+      "fitness"
+    ]
+  },
+  {
+    "id": "p018",
+    "name": "PowerLift Adjustable Dumbbells",
+    "brand": "PowerLift",
+    "category": "Sports",
+    "subcategory": "Strength",
+    "description": "Compact adjustable dumbbells for home gym strength training.",
+    "price": 8999,
+    "original_price": 10999,
+    "rating": 4.6,
+    "review_count": 890,
+    "popularity": 0.68,
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Range": "2-24kg"
+    },
+    "tags": [
+      "dumbbells",
+      "gym",
+      "strength"
+    ]
+  },
+  {
+    "id": "p019",
+    "name": "BrewMaster Pour-Over Kit",
+    "brand": "BrewCraft",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Manual pour-over coffee kit for specialty coffee lovers.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.7,
+    "review_count": 560,
+    "popularity": 0.6,
+    "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80",
+    "attributes": {
+      "use_case": "coffee"
+    },
+    "specs": {
+      "Material": "Glass"
+    },
+    "tags": [
+      "coffee",
+      "pour-over",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "p020",
+    "name": "SmartBrew Espresso Machine",
+    "brand": "SmartBrew",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Compact espresso machine with milk frother for home baristas.",
+    "price": 18999,
+    "original_price": 22999,
+    "rating": 4.5,
+    "review_count": 720,
+    "popularity": 0.65,
+    "image_url": "https://images.unsplash.com/photo-1517668808823-f7724d9e47f1?w=600&q=80",
+    "attributes": {
+      "use_case": "coffee"
+    },
+    "specs": {
+      "Pressure": "15 bar"
+    },
+    "tags": [
+      "espresso",
+      "coffee",
+      "machine"
+    ]
+  },
+  {
+    "id": "p021",
+    "name": "CloudSoft Memory Foam Pillow",
+    "brand": "SleepNest",
+    "category": "Home",
+    "subcategory": "Bedding",
+    "description": "Orthopedic memory foam pillow for side and back sleepers.",
+    "price": 1499,
+    "original_price": 1999,
+    "rating": 4.4,
+    "review_count": 5100,
+    "popularity": 0.83,
+    "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    "attributes": {
+      "use_case": "sleep"
+    },
+    "specs": {
+      "Fill": "Memory Foam"
+    },
+    "tags": [
+      "pillow",
+      "sleep",
+      "comfort"
+    ]
+  },
+  {
+    "id": "p022",
+    "name": "LumenDesk LED Study Lamp",
+    "brand": "Lumen",
+    "category": "Home",
+    "subcategory": "Lighting",
+    "description": "Flicker-free LED desk lamp with adjustable color temperature for late-night coding.",
+    "price": 1299,
+    "original_price": 1699,
+    "rating": 4.5,
+    "review_count": 2300,
+    "popularity": 0.76,
+    "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+    "attributes": {
+      "use_case": "study"
+    },
+    "specs": {
+      "Power": "12W"
+    },
+    "tags": [
+      "lamp",
+      "desk",
+      "study",
+      "coding"
+    ]
+  },
+  {
+    "id": "p023",
+    "name": "ErgoChair Mesh Office Chair",
+    "brand": "ErgoSit",
+    "category": "Furniture",
+    "subcategory": "Office",
+    "description": "Breathable mesh office chair with lumbar support for long workdays.",
+    "price": 12999,
+    "original_price": 15999,
+    "rating": 4.6,
+    "review_count": 1450,
+    "popularity": 0.8,
+    "image_url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Material": "Mesh"
+    },
+    "tags": [
+      "office",
+      "chair",
+      "ergonomic"
+    ]
+  },
+  {
+    "id": "p024",
+    "name": "UltraSlim Mechanical Keyboard",
+    "brand": "KeyCraft",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "Hot-swappable mechanical keyboard preferred by programmers.",
+    "price": 6999,
+    "original_price": 8499,
+    "rating": 4.7,
+    "review_count": 2100,
+    "popularity": 0.82,
+    "image_url": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&q=80",
+    "attributes": {
+      "use_case": "programming"
+    },
+    "specs": {
+      "Switches": "Tactile"
+    },
+    "tags": [
+      "keyboard",
+      "mechanical",
+      "coding"
+    ]
+  },
+  {
+    "id": "p025",
+    "name": "PixelPro Wireless Mouse",
+    "brand": "PixelForge",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "Ergonomic wireless mouse with silent clicks for office and coding.",
+    "price": 1499,
+    "original_price": 1999,
+    "rating": 4.4,
+    "review_count": 3600,
+    "popularity": 0.78,
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "DPI": "1600"
+    },
+    "tags": [
+      "mouse",
+      "wireless",
+      "office"
+    ]
+  },
+  {
+    "id": "p026",
+    "name": "SunShield SPF50 Gel Sunscreen",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Non-greasy SPF50 gel sunscreen ideal for oily skin in humid climates.",
+    "price": 699,
+    "original_price": 899,
+    "rating": 4.5,
+    "review_count": 6800,
+    "popularity": 0.91,
+    "image_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80",
+    "attributes": {
+      "skin_type": "oily",
+      "concern": "sun"
+    },
+    "specs": {
+      "SPF": "50"
+    },
+    "tags": [
+      "sunscreen",
+      "oily",
+      "spf"
+    ]
+  },
+  {
+    "id": "p027",
+    "name": "SilkGlow Night Serum",
+    "brand": "LuxeSkin",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Retinol night serum for mature skin texture improvement.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.4,
+    "review_count": 980,
+    "popularity": 0.62,
+    "image_url": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=600&q=80",
+    "attributes": {
+      "skin_type": "mature",
+      "concern": "anti-aging"
+    },
+    "specs": {
+      "Size": "30ml"
+    },
+    "tags": [
+      "serum",
+      "retinol",
+      "night"
+    ]
+  },
+  {
+    "id": "p028",
+    "name": "CampusBackpack 30L",
+    "brand": "TrailHiker",
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "description": "Water-resistant laptop backpack with padded 15-inch sleeve.",
+    "price": 2499,
+    "original_price": 3199,
+    "rating": 4.5,
+    "review_count": 4200,
+    "popularity": 0.85,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+    "attributes": {
+      "use_case": "college"
+    },
+    "specs": {
+      "Capacity": "30L"
+    },
+    "tags": [
+      "backpack",
+      "laptop",
+      "college"
+    ]
+  },
+  {
+    "id": "p029",
+    "name": "MetroTote Leather Bag",
+    "brand": "UrbanSole",
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "description": "Minimal leather tote suitable for office and formal settings.",
+    "price": 4599,
+    "original_price": 5499,
+    "rating": 4.3,
+    "review_count": 640,
+    "popularity": 0.58,
+    "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Material": "Leather"
+    },
+    "tags": [
+      "tote",
+      "office",
+      "leather"
+    ]
+  },
+  {
+    "id": "p030",
+    "name": "AquaPure Stainless Bottle 1L",
+    "brand": "AquaPure",
+    "category": "Sports",
+    "subcategory": "Hydration",
+    "description": "Insulated stainless steel bottle keeps drinks cold during workouts.",
+    "price": 999,
+    "original_price": 1299,
+    "rating": 4.6,
+    "review_count": 8900,
+    "popularity": 0.88,
+    "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Capacity": "1L"
+    },
+    "tags": [
+      "bottle",
+      "gym",
+      "hydration"
+    ]
+  },
+  {
+    "id": "p031",
+    "name": "NordicWool Merino Tee",
+    "brand": "NordicWear",
+    "category": "Fashion",
+    "subcategory": "Apparel",
+    "description": "Breathable merino wool tee for hiking and layering.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.4,
+    "review_count": 720,
+    "popularity": 0.55,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "attributes": {
+      "use_case": "outdoor"
+    },
+    "specs": {
+      "Material": "Merino"
+    },
+    "tags": [
+      "tee",
+      "outdoor",
+      "merino"
+    ]
+  },
+  {
+    "id": "p032",
+    "name": "RainShield Compact Jacket",
+    "brand": "TrailHiker",
+    "category": "Fashion",
+    "subcategory": "Apparel",
+    "description": "Packable waterproof jacket for monsoon commuting.",
+    "price": 3499,
+    "original_price": 4299,
+    "rating": 4.5,
+    "review_count": 1100,
+    "popularity": 0.7,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "attributes": {
+      "use_case": "commute"
+    },
+    "specs": {
+      "Waterproof": "Yes"
+    },
+    "tags": [
+      "jacket",
+      "rain",
+      "commute"
+    ]
+  },
+  {
+    "id": "p033",
+    "name": "ChefEdge Chef Knife 8in",
+    "brand": "ChefEdge",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Balanced chef knife for everyday cooking prep.",
+    "price": 2799,
+    "original_price": 3499,
+    "rating": 4.7,
+    "review_count": 1500,
+    "popularity": 0.66,
+    "image_url": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Length": "8 inch"
+    },
+    "tags": [
+      "knife",
+      "kitchen",
+      "chef"
+    ]
+  },
+  {
+    "id": "p034",
+    "name": "BakePro Nonstick Pan Set",
+    "brand": "BakePro",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "3-piece nonstick pan set for beginners cooking at home.",
+    "price": 3999,
+    "original_price": 4999,
+    "rating": 4.3,
+    "review_count": 2100,
+    "popularity": 0.73,
+    "image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Pieces": "3"
+    },
+    "tags": [
+      "pans",
+      "kitchen",
+      "cookware"
+    ]
+  },
+  {
+    "id": "p035",
+    "name": "FocusPods ANC Earbuds",
+    "brand": "AudioNova",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "ANC earbuds for commuting and office calls.",
+    "price": 5999,
+    "original_price": 7499,
+    "rating": 4.5,
+    "review_count": 1900,
+    "popularity": 0.79,
+    "image_url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=600&q=80",
+    "attributes": {
+      "use_case": "office",
+      "anc": true
+    },
+    "specs": {
+      "ANC": "Yes"
+    },
+    "tags": [
+      "earbuds",
+      "anc",
+      "office"
+    ]
+  },
+  {
+    "id": "p036",
+    "name": "KidSafe Learning Tablet",
+    "brand": "KidTech",
+    "category": "Electronics",
+    "subcategory": "Tablets",
+    "description": "Parental-controlled tablet for early learning apps.",
+    "price": 12999,
+    "original_price": 14999,
+    "rating": 4.2,
+    "review_count": 800,
+    "popularity": 0.5,
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80",
+    "attributes": {
+      "use_case": "kids"
+    },
+    "specs": {
+      "Storage": "64GB"
+    },
+    "tags": [
+      "tablet",
+      "kids",
+      "learning"
+    ]
+  },
+  {
+    "id": "p037",
+    "name": "GardenGrow Herb Kit",
+    "brand": "GreenThumb",
+    "category": "Home",
+    "subcategory": "Garden",
+    "description": "Indoor herb starter kit with basil, mint and coriander.",
+    "price": 899,
+    "original_price": 1199,
+    "rating": 4.4,
+    "review_count": 1600,
+    "popularity": 0.57,
+    "image_url": "https://images.unsplash.com/photo-1466692476866-aef1dfb1e735?w=600&q=80",
+    "attributes": {
+      "use_case": "garden"
+    },
+    "specs": {
+      "Plants": "3"
+    },
+    "tags": [
+      "herbs",
+      "garden",
+      "indoor"
+    ]
+  },
+  {
+    "id": "p038",
+    "name": "PetJoy Chew Toy Bundle",
+    "brand": "PetJoy",
+    "category": "Pets",
+    "subcategory": "Toys",
+    "description": "Durable chew toys for medium dogs.",
+    "price": 799,
+    "original_price": 999,
+    "rating": 4.3,
+    "review_count": 2400,
+    "popularity": 0.64,
+    "image_url": "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?w=600&q=80",
+    "attributes": {
+      "use_case": "pets"
+    },
+    "specs": {
+      "Size": "Medium"
+    },
+    "tags": [
+      "pets",
+      "dog",
+      "toys"
+    ]
+  },
+  {
+    "id": "p039",
+    "name": "PhotoSnap Mirrorless Camera",
+    "brand": "PhotoSnap",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Entry mirrorless camera for travel photography.",
+    "price": 45999,
+    "original_price": 52999,
+    "rating": 4.6,
+    "review_count": 540,
+    "popularity": 0.61,
+    "image_url": "https://images.unsplash.com/photo-1516035069371-29a1b824cc2c?w=600&q=80",
+    "attributes": {
+      "use_case": "photography"
+    },
+    "specs": {
+      "Sensor": "APS-C"
+    },
+    "tags": [
+      "camera",
+      "mirrorless",
+      "travel"
+    ]
+  },
+  {
+    "id": "p040",
+    "name": "TripodLite Travel Stand",
+    "brand": "PhotoSnap",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "Compact aluminum tripod for travel cameras and phones.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.4,
+    "review_count": 980,
+    "popularity": 0.58,
+    "image_url": "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=600&q=80",
+    "attributes": {
+      "use_case": "photography"
+    },
+    "specs": {
+      "Height": "140cm"
+    },
+    "tags": [
+      "tripod",
+      "travel",
+      "camera"
+    ]
+  },
+  {
+    "id": "p041",
+    "name": "SilkSleep Eye Mask",
+    "brand": "SleepNest",
+    "category": "Home",
+    "subcategory": "Bedding",
+    "description": "Soft silk sleep mask for light-sensitive sleepers.",
+    "price": 499,
+    "original_price": 699,
+    "rating": 4.2,
+    "review_count": 3200,
+    "popularity": 0.67,
+    "image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80",
+    "attributes": {
+      "use_case": "sleep"
+    },
+    "specs": {
+      "Material": "Silk"
+    },
+    "tags": [
+      "sleep",
+      "mask",
+      "travel"
+    ]
+  },
+  {
+    "id": "p042",
+    "name": "ProteinPlus Whey 1kg",
+    "brand": "FitFuel",
+    "category": "Sports",
+    "subcategory": "Nutrition",
+    "description": "Whey protein isolate for post-gym recovery.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.5,
+    "review_count": 6700,
+    "popularity": 0.87,
+    "image_url": "https://images.unsplash.com/photo-1579722820308-d74e57ce3e79?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Flavor": "Chocolate"
+    },
+    "tags": [
+      "protein",
+      "gym",
+      "whey"
+    ]
+  },
+  {
+    "id": "p043",
+    "name": "Marathon Compression Socks",
+    "brand": "StrideLab",
+    "category": "Sports",
+    "subcategory": "Apparel",
+    "description": "Compression socks for long-distance runners.",
+    "price": 899,
+    "original_price": 1199,
+    "rating": 4.3,
+    "review_count": 1400,
+    "popularity": 0.59,
+    "image_url": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=600&q=80",
+    "attributes": {
+      "use_case": "running"
+    },
+    "specs": {
+      "Pair": "1"
+    },
+    "tags": [
+      "socks",
+      "running",
+      "compression"
+    ]
+  },
+  {
+    "id": "p044",
+    "name": "OfficeFlex Stretch Band Set",
+    "brand": "ErgoSit",
+    "category": "Sports",
+    "subcategory": "Fitness",
+    "description": "Resistance bands for desk-side stretch breaks.",
+    "price": 699,
+    "original_price": 899,
+    "rating": 4.1,
+    "review_count": 2100,
+    "popularity": 0.54,
+    "image_url": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Bands": "5"
+    },
+    "tags": [
+      "bands",
+      "office",
+      "stretch"
+    ]
+  },
+  {
+    "id": "p045",
+    "name": "UrbanCycle Helmet Lite",
+    "brand": "UrbanRide",
+    "category": "Sports",
+    "subcategory": "Cycling",
+    "description": "Lightweight cycling helmet with USB rear light.",
+    "price": 2499,
+    "original_price": 3199,
+    "rating": 4.5,
+    "review_count": 870,
+    "popularity": 0.56,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "attributes": {
+      "use_case": "cycling"
+    },
+    "specs": {
+      "Weight": "280g"
+    },
+    "tags": [
+      "helmet",
+      "cycling",
+      "commute"
+    ]
+  },
+  {
+    "id": "p046",
+    "name": "SmartHome WiFi Plug",
+    "brand": "HomeLink",
+    "category": "Electronics",
+    "subcategory": "Smart Home",
+    "description": "Energy-monitoring smart plug for appliances.",
+    "price": 999,
+    "original_price": 1299,
+    "rating": 4.3,
+    "review_count": 4500,
+    "popularity": 0.72,
+    "image_url": "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80",
+    "attributes": {
+      "use_case": "smart-home"
+    },
+    "specs": {
+      "Protocol": "WiFi"
+    },
+    "tags": [
+      "smart",
+      "plug",
+      "home"
+    ]
+  },
+  {
+    "id": "p047",
+    "name": "Artisan Sketch Set",
+    "brand": "Artisan",
+    "category": "Stationery",
+    "subcategory": "Art",
+    "description": "Premium sketch pencils and charcoal set for beginners.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.6,
+    "review_count": 1100,
+    "popularity": 0.52,
+    "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
+    "attributes": {
+      "use_case": "art"
+    },
+    "specs": {
+      "Pieces": "24"
+    },
+    "tags": [
+      "art",
+      "sketch",
+      "pencils"
+    ]
+  },
+  {
+    "id": "p048",
+    "name": "NotePro Dotted Journal",
+    "brand": "NotePro",
+    "category": "Stationery",
+    "subcategory": "Notebooks",
+    "description": "Hardcover dotted journal for planning and coding notes.",
+    "price": 599,
+    "original_price": 799,
+    "rating": 4.4,
+    "review_count": 3900,
+    "popularity": 0.71,
+    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "attributes": {
+      "use_case": "study"
+    },
+    "specs": {
+      "Pages": "192"
+    },
+    "tags": [
+      "journal",
+      "notes",
+      "planner"
+    ]
+  },
+  {
+    "id": "p049",
+    "name": "SpiceRoute Masala Box",
+    "brand": "SpiceRoute",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Organized Indian spice box with 7 stainless containers.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.5,
+    "review_count": 2600,
+    "popularity": 0.69,
+    "image_url": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Containers": "7"
+    },
+    "tags": [
+      "spices",
+      "kitchen",
+      "indian"
+    ]
+  },
+  {
+    "id": "p050",
+    "name": "Heritage Handloom Stole",
+    "brand": "HeritageWeave",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "description": "Handloom cotton stole for office and festive wear.",
+    "price": 1899,
+    "original_price": 2499,
+    "rating": 4.7,
+    "review_count": 430,
+    "popularity": 0.48,
+    "image_url": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&q=80",
+    "attributes": {
+      "use_case": "festive"
+    },
+    "specs": {
+      "Material": "Cotton"
+    },
+    "tags": [
+      "stole",
+      "handloom",
+      "ethnic"
+    ]
+  },
+  {
+    "id": "p051",
+    "name": "BassBoom Portable Speaker",
+    "brand": "SoundPulse",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "description": "IPX5 portable Bluetooth speaker for outdoor parties.",
+    "price": 3999,
+    "original_price": 4999,
+    "rating": 4.4,
+    "review_count": 2800,
+    "popularity": 0.77,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80",
+    "attributes": {
+      "use_case": "outdoor"
+    },
+    "specs": {
+      "Battery": "12h"
+    },
+    "tags": [
+      "speaker",
+      "bluetooth",
+      "portable"
+    ]
+  },
+  {
+    "id": "p052",
+    "name": "CalmMind Meditation Cushion",
+    "brand": "YogaFlow",
+    "category": "Sports",
+    "subcategory": "Yoga",
+    "description": "Buckwheat meditation cushion for daily mindfulness practice.",
+    "price": 1799,
+    "original_price": 2299,
+    "rating": 4.5,
+    "review_count": 650,
+    "popularity": 0.51,
+    "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    "attributes": {
+      "use_case": "meditation"
+    },
+    "specs": {
+      "Fill": "Buckwheat"
+    },
+    "tags": [
+      "meditation",
+      "yoga",
+      "cushion"
+    ]
+  },
+  {
+    "id": "p053",
+    "name": "ProClean Robot Vacuum",
+    "brand": "CleanBot",
+    "category": "Home",
+    "subcategory": "Appliances",
+    "description": "Smart mapping robot vacuum for apartments.",
+    "price": 24999,
+    "original_price": 29999,
+    "rating": 4.3,
+    "review_count": 1200,
+    "popularity": 0.74,
+    "image_url": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=600&q=80",
+    "attributes": {
+      "use_case": "home"
+    },
+    "specs": {
+      "Runtime": "120min"
+    },
+    "tags": [
+      "vacuum",
+      "robot",
+      "smart"
+    ]
+  },
+  {
+    "id": "p054",
+    "name": "InkFlow Fountain Pen",
+    "brand": "InkFlow",
+    "category": "Stationery",
+    "subcategory": "Writing",
+    "description": "Smooth fountain pen for journaling enthusiasts.",
+    "price": 1299,
+    "original_price": 1699,
+    "rating": 4.6,
+    "review_count": 980,
+    "popularity": 0.53,
+    "image_url": "https://images.unsplash.com/photo-1583485088038-6ce948efae35?w=600&q=80",
+    "attributes": {
+      "use_case": "writing"
+    },
+    "specs": {
+      "Nib": "Medium"
+    },
+    "tags": [
+      "pen",
+      "fountain",
+      "writing"
+    ]
+  },
+  {
+    "id": "p055",
+    "name": "CampLite Tent 2P",
+    "brand": "TrailHiker",
+    "category": "Sports",
+    "subcategory": "Camping",
+    "description": "Lightweight 2-person tent for weekend treks.",
+    "price": 7999,
+    "original_price": 9999,
+    "rating": 4.4,
+    "review_count": 540,
+    "popularity": 0.49,
+    "image_url": "https://images.unsplash.com/photo-1478131339522-040cb6bc260e?w=600&q=80",
+    "attributes": {
+      "use_case": "camping"
+    },
+    "specs": {
+      "Capacity": "2P"
+    },
+    "tags": [
+      "tent",
+      "camping",
+      "trek"
+    ]
+  }
+]
