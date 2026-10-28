@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import analytics, events, products, rank, search, users
+from app.api.routes import analytics, events, lab, products, rank, search, users
 from app.core.config import get_settings
 from app.core.logging import setup_logging
 from app.db.init_db import init_db
@@ -44,6 +44,7 @@ app.include_router(search.router)
 app.include_router(rank.router)
 app.include_router(events.router)
 app.include_router(users.router)
+app.include_router(lab.router)
 
 
 @app.get("/")

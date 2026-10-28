@@ -10,11 +10,30 @@ from app.core.config import get_settings
 from app.ml.feature_processor import features_to_array, product_document, structured_vector
 from app.ml.metrics import pd_at_k
 from app.ml.model_loader import model_registry
+from app.ml.query_intent import (
+    apply_intent_filters,
+    lexical_relevance,
+    parse_query_intent,
+    relevance_gate,
+)
 
 
-def _why(product: dict[str, Any], feats: dict[str, float], semantic: float, personalized: bool) -> str:
+def _why(
+    product: dict[str, Any],
+    feats: dict[str, float],
+    semantic: float,
+    personalized: bool,
+    intent: dict[str, Any],
+    lexical: float,
+) -> str:
     reasons = []
-    if semantic >= 0.55:
+    if intent.get("max_price") is not None:
+        reasons.append(f"within budget (≤ ₹{int(intent['max_price'])})")
+    if intent.get("min_price") is not None:
+        reasons.append(f"meets min price (≥ ₹{int(intent['min_price'])})")
+    if lexical >= 0.35:
+        reasons.append("strong keyword / synonym match to your query")
+    elif semantic >= 0.55:
         reasons.append("strong semantic match to your query")
     elif semantic >= 0.35:
         reasons.append("moderate semantic relevance")
@@ -46,33 +65,54 @@ class Ranker:
         ranking_mode: str = "personalized",
         personalization_enabled: bool = True,
         include_pipeline: bool = False,
+        apply_query_constraints: bool = True,
     ) -> dict[str, Any]:
         settings = get_settings()
         encoder = model_registry.encoder
         assert encoder is not None
 
+        intent = parse_query_intent(query)
+        candidates = products
+        if apply_query_constraints:
+            candidates = apply_intent_filters(products, intent)
+
         use_personalization = personalization_enabled and ranking_mode == "personalized"
         if ranking_mode == "relevance":
             use_personalization = False
 
+        if not candidates:
+            return {
+                "query": query,
+                "ranking_mode": ranking_mode,
+                "personalization_enabled": use_personalization,
+                "scoring_method": "demo_weighted_semantic_structured_personalization",
+                "model_status": model_registry.mmoe_status,
+                "results": [],
+                "pd_at_k": None,
+                "comparison": None,
+                "pipeline": None,
+                "intent": intent,
+                "filtered_count": 0,
+                "candidate_count_before_intent": len(products),
+            }
+
         query_emb = encoder.encode(query)[0]
-        docs = [product_document(p) for p in products]
-        # Prefer cache per product
-        product_embs = []
-        for p, doc in zip(products, docs):
-            product_embs.append(encoder.encode_product(p["id"], doc))
+        docs = [product_document(p) for p in candidates]
+        product_embs = [encoder.encode_product(p["id"], doc) for p, doc in zip(candidates, docs)]
 
         scored: list[dict[str, Any]] = []
         pipeline_samples: list[dict[str, Any]] = []
 
-        for product, pemb in zip(products, product_embs):
+        for product, pemb in zip(candidates, product_embs):
             semantic = encoder.cosine_similarity(query_emb, pemb)
+            lexical = lexical_relevance(product, intent)
+            if not relevance_gate(product, intent, semantic, lexical):
+                continue
+
             x_matching = encoder.elementwise_match(query_emb, pemb)
             matching_strength = float(np.mean(np.abs(x_matching)))
-
             feats = structured_vector(product, user, semantic, use_personalization)
 
-            click_p = atc_p = trx_p = None
             scoring_method = "demo_weighted_semantic_structured_personalization"
             model_status = model_registry.mmoe_status
 
@@ -83,20 +123,19 @@ class Ranker:
                 final = 0.35 * click_p + 0.35 * atc_p + 0.30 * trx_p
                 scoring_method = "trained_mmoe_multitask"
             else:
-                # Honest demonstration ranker (not claimed as trained MMoE)
                 structured = feats["structured_score"]
                 user_score = feats["user_score"] if use_personalization else 0.0
+                # Lexical boost keeps "buds" results on earbuds, not random cheap items
                 final = (
-                    settings.rank_w_semantic * semantic
-                    + settings.rank_w_structured * structured
-                    + (settings.rank_w_personalization * user_score if use_personalization else 0.0)
+                    0.38 * semantic
+                    + 0.32 * lexical
+                    + 0.15 * structured
+                    + (0.15 * user_score if use_personalization else 0.0)
                 )
-                # Soft task probabilities shaped from available signals for lab UI
-                click_p = float(np.clip(0.55 * semantic + 0.25 * structured + 0.20 * user_score, 0, 1))
-                atc_p = float(np.clip(0.40 * semantic + 0.30 * structured + 0.30 * user_score, 0, 1))
-                trx_p = float(np.clip(0.30 * semantic + 0.30 * structured + 0.40 * user_score, 0, 1))
+                click_p = float(np.clip(0.45 * semantic + 0.30 * lexical + 0.15 * structured + 0.10 * user_score, 0, 1))
+                atc_p = float(np.clip(0.35 * semantic + 0.30 * lexical + 0.20 * structured + 0.15 * user_score, 0, 1))
+                trx_p = float(np.clip(0.25 * semantic + 0.25 * lexical + 0.25 * structured + 0.25 * user_score, 0, 1))
 
-            # Deterministic sort modes override score after relevance filter set
             sort_key = final
             if ranking_mode == "price_asc":
                 sort_key = -float(product["price"])
@@ -117,9 +156,14 @@ class Ranker:
                 "final_score": round(float(final), 4),
                 "scoring_method": scoring_method,
                 "model_status": model_status,
-                "why_this_result": _why(product, feats, semantic, use_personalization),
+                "why_this_result": _why(product, feats, semantic, use_personalization, intent, lexical),
                 "details": {
                     "matching_strength": round(matching_strength, 4),
+                    "lexical_relevance": round(float(lexical), 4),
+                    "intent": {
+                        "min_price": intent.get("min_price"),
+                        "max_price": intent.get("max_price"),
+                    },
                     "features": {k: round(float(v), 4) for k, v in feats.items()},
                 },
             }
@@ -138,9 +182,11 @@ class Ranker:
                     {
                         "product_id": product["id"],
                         "product_name": product["name"],
+                        "price": product["price"],
                         "query_embedding_dim": int(query_emb.shape[0]),
                         "matching_strength": round(matching_strength, 4),
                         "semantic_similarity": round(float(semantic), 4),
+                        "lexical_relevance": round(float(lexical), 4),
                         "structured_features": explanation["details"]["features"],
                         "task_probabilities": {
                             "click": explanation["click_probability"],
@@ -151,11 +197,8 @@ class Ranker:
                     }
                 )
 
-        # Primary ranking by score/sort_key; for price_asc we negated so higher sort_key is better
         scored.sort(key=lambda x: x["sort_key"], reverse=True)
 
-        # Also compute relevance-only ordering for PD@K when personalized
-        relevance_order = None
         pd_value = None
         comparison = None
         if ranking_mode == "personalized" and include_pipeline:
@@ -166,11 +209,11 @@ class Ranker:
                 ranking_mode="relevance",
                 personalization_enabled=False,
                 include_pipeline=False,
+                apply_query_constraints=apply_query_constraints,
             )
             relevance_order = [r["product"]["id"] for r in rel["results"]]
             personalized_order = [r["product"]["id"] for r in scored]
             pd_value = pd_at_k(personalized_order, relevance_order, k=min(10, len(scored)))
-            # Position changes
             rel_pos = {pid: i for i, pid in enumerate(relevance_order)}
             changes = []
             for i, pid in enumerate(personalized_order[:10]):
@@ -212,9 +255,14 @@ class Ranker:
                 "stages": [
                     {
                         "id": 1,
-                        "name": "Search query & product information",
-                        "description": "Query text and product documents (title, brand, attributes).",
-                        "output": {"query": query, "candidate_count": len(products)},
+                        "name": "Search query & constraints",
+                        "description": "Parse query intent (price caps, synonyms) and load product documents.",
+                        "output": {
+                            "query": query,
+                            "intent": intent,
+                            "candidates_after_price_filter": len(candidates),
+                            "catalog_size": len(products),
+                        },
                     },
                     {
                         "id": 2,
@@ -226,13 +274,27 @@ class Ranker:
                         "id": 3,
                         "name": "Query–product element-wise matching",
                         "description": "x_matching = query_emb ⊙ product_emb (richer than dot product).",
-                        "output": {"samples": [{"product_id": s["product_id"], "matching_strength": s["matching_strength"]} for s in pipeline_samples]},
+                        "output": {
+                            "samples": [
+                                {"product_id": s["product_id"], "matching_strength": s["matching_strength"]}
+                                for s in pipeline_samples
+                            ]
+                        },
                     },
                     {
                         "id": 4,
                         "name": "GTE-style semantic similarity",
                         "description": "Cosine similarity between query and product embeddings.",
-                        "output": {"samples": [{"product_id": s["product_id"], "semantic_similarity": s["semantic_similarity"]} for s in pipeline_samples]},
+                        "output": {
+                            "samples": [
+                                {
+                                    "product_id": s["product_id"],
+                                    "semantic_similarity": s["semantic_similarity"],
+                                    "lexical_relevance": s["lexical_relevance"],
+                                }
+                                for s in pipeline_samples
+                            ]
+                        },
                     },
                     {
                         "id": 5,
@@ -262,18 +324,25 @@ class Ranker:
                         "id": 9,
                         "name": "Prediction towers",
                         "description": "MLP towers produce task probabilities.",
-                        "output": {"samples": [{"product_id": s["product_id"], **s["task_probabilities"]} for s in pipeline_samples]},
+                        "output": {
+                            "samples": [
+                                {"product_id": s["product_id"], **s["task_probabilities"]} for s in pipeline_samples
+                            ]
+                        },
                     },
                     {
                         "id": 10,
                         "name": "Final personalized ranking",
-                        "description": "Products ordered by combined ranking score.",
-                        "output": {"top_ids": [r["product"]["id"] for r in results[:10]]},
+                        "description": "Budget-compliant, relevance-gated products ordered by ranking score.",
+                        "output": {
+                            "top_ids": [r["product"]["id"] for r in results[:10]],
+                            "top_prices": [r["product"]["price"] for r in results[:10]],
+                        },
                     },
                 ],
                 "disclaimer": (
                     "Pipeline stages mirror the paper architecture. "
-                    "Unless a trained MMoE checkpoint is loaded, final scores use the documented demo ranker."
+                    "Query intent filters (e.g. under ₹5k) are applied before ranking."
                 ),
             }
 
@@ -284,13 +353,16 @@ class Ranker:
             "scoring_method": (
                 "trained_mmoe_multitask"
                 if model_registry.mmoe_loaded_from_checkpoint
-                else "demo_weighted_semantic_structured_personalization"
+                else "demo_weighted_semantic_lexical_personalization"
             ),
             "model_status": model_registry.mmoe_status,
             "results": results,
             "pd_at_k": pd_value,
             "comparison": comparison,
             "pipeline": pipeline,
+            "intent": intent,
+            "filtered_count": len(results),
+            "candidate_count_before_intent": len(products),
         }
 
 

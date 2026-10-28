@@ -1437,5 +1437,1634 @@
       "camping",
       "trek"
     ]
+  },
+  {
+    "id": "p056",
+    "name": "NovaBuds Lite ANC",
+    "brand": "AudioNova",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Compact ANC earbuds for commuting under 5000.",
+    "price": 4499,
+    "original_price": 5499,
+    "rating": 4.4,
+    "review_count": 1200,
+    "popularity": 0.76,
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80",
+    "attributes": {
+      "use_case": "commute",
+      "anc": true
+    },
+    "specs": {
+      "Battery": "28h"
+    },
+    "tags": [
+      "earbuds",
+      "anc",
+      "commute"
+    ]
+  },
+  {
+    "id": "p057",
+    "name": "CodePad Mechanical Numpad",
+    "brand": "KeyCraft",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "Programmable numpad for developers and accountants.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.3,
+    "review_count": 540,
+    "popularity": 0.48,
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+    "attributes": {
+      "use_case": "programming"
+    },
+    "specs": {
+      "Keys": "21"
+    },
+    "tags": [
+      "numpad",
+      "coding",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "p058",
+    "name": "UltraView 27 4K Monitor",
+    "brand": "NovaTech",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "27-inch 4K IPS monitor for coding and design.",
+    "price": 24999,
+    "original_price": 28999,
+    "rating": 4.6,
+    "review_count": 980,
+    "popularity": 0.71,
+    "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&q=80",
+    "attributes": {
+      "use_case": "programming"
+    },
+    "specs": {
+      "Resolution": "4K"
+    },
+    "tags": [
+      "monitor",
+      "4k",
+      "coding"
+    ]
+  },
+  {
+    "id": "p059",
+    "name": "ChargeFast GaN 65W",
+    "brand": "PowerNest",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "Compact GaN charger for laptops and phones.",
+    "price": 2499,
+    "original_price": 3199,
+    "rating": 4.5,
+    "review_count": 3400,
+    "popularity": 0.8,
+    "image_url": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=600&q=80",
+    "attributes": {
+      "use_case": "travel"
+    },
+    "specs": {
+      "Wattage": "65W"
+    },
+    "tags": [
+      "charger",
+      "gan",
+      "laptop"
+    ]
+  },
+  {
+    "id": "p060",
+    "name": "StreamCam HD Webcam",
+    "brand": "PixelForge",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "1080p webcam with auto-focus for remote work.",
+    "price": 3499,
+    "original_price": 4299,
+    "rating": 4.2,
+    "review_count": 1600,
+    "popularity": 0.66,
+    "image_url": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Resolution": "1080p"
+    },
+    "tags": [
+      "webcam",
+      "office",
+      "remote"
+    ]
+  },
+  {
+    "id": "p061",
+    "name": "NightRun Reflective Shoes",
+    "brand": "StrideLab",
+    "category": "Footwear",
+    "subcategory": "Running",
+    "description": "Reflective beginner running shoes for early morning jogs.",
+    "price": 3299,
+    "original_price": 3999,
+    "rating": 4.3,
+    "review_count": 890,
+    "popularity": 0.62,
+    "image_url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&q=80",
+    "attributes": {
+      "level": "beginner",
+      "use_case": "running"
+    },
+    "specs": {
+      "Reflective": "Yes"
+    },
+    "tags": [
+      "running",
+      "beginner",
+      "reflective"
+    ]
+  },
+  {
+    "id": "p062",
+    "name": "OfficeWalk Comfort Loafers",
+    "brand": "UrbanSole",
+    "category": "Footwear",
+    "subcategory": "Formal",
+    "description": "Soft leather loafers for all-day office wear.",
+    "price": 3799,
+    "original_price": 4599,
+    "rating": 4.4,
+    "review_count": 1100,
+    "popularity": 0.69,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    "attributes": {
+      "use_case": "office",
+      "style": "formal"
+    },
+    "specs": {
+      "Material": "Leather"
+    },
+    "tags": [
+      "loafers",
+      "office",
+      "formal"
+    ]
+  },
+  {
+    "id": "p063",
+    "name": "TrailGrip Hiking Boots",
+    "brand": "TrailHiker",
+    "category": "Footwear",
+    "subcategory": "Hiking",
+    "description": "Waterproof hiking boots for weekend treks.",
+    "price": 5499,
+    "original_price": 6499,
+    "rating": 4.5,
+    "review_count": 720,
+    "popularity": 0.58,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e59630263df4?w=600&q=80",
+    "attributes": {
+      "use_case": "hiking"
+    },
+    "specs": {
+      "Waterproof": "Yes"
+    },
+    "tags": [
+      "boots",
+      "hiking",
+      "trek"
+    ]
+  },
+  {
+    "id": "p064",
+    "name": "CourtPro Tennis Shoes",
+    "brand": "Velocity",
+    "category": "Footwear",
+    "subcategory": "Sports",
+    "description": "Cushioned tennis shoes for club-level play.",
+    "price": 4299,
+    "original_price": 4999,
+    "rating": 4.3,
+    "review_count": 430,
+    "popularity": 0.51,
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    "attributes": {
+      "use_case": "tennis"
+    },
+    "specs": {
+      "Court": "Hard"
+    },
+    "tags": [
+      "tennis",
+      "shoes",
+      "sports"
+    ]
+  },
+  {
+    "id": "p065",
+    "name": "BareComfort Slip-Ons",
+    "brand": "FlexRun",
+    "category": "Footwear",
+    "subcategory": "Casual",
+    "description": "Minimal slip-ons for travel and casual days.",
+    "price": 1899,
+    "original_price": 2399,
+    "rating": 4.1,
+    "review_count": 2100,
+    "popularity": 0.64,
+    "image_url": "https://images.unsplash.com/photo-1533867617858-e59630263df4?w=600&q=80",
+    "attributes": {
+      "use_case": "casual"
+    },
+    "specs": {
+      "Fit": "Wide"
+    },
+    "tags": [
+      "slipon",
+      "casual",
+      "travel"
+    ]
+  },
+  {
+    "id": "p066",
+    "name": "PoreRefine Toner",
+    "brand": "DermaPure",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Alcohol-free toner balancing oily and combination skin.",
+    "price": 549,
+    "original_price": 699,
+    "rating": 4.4,
+    "review_count": 2800,
+    "popularity": 0.77,
+    "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&q=80",
+    "attributes": {
+      "skin_type": "oily"
+    },
+    "specs": {
+      "Size": "150ml"
+    },
+    "tags": [
+      "toner",
+      "oily",
+      "skincare"
+    ]
+  },
+  {
+    "id": "p067",
+    "name": "VitaminC Bright Serum",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "15% vitamin C serum for dull skin brightening.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.5,
+    "review_count": 1900,
+    "popularity": 0.73,
+    "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+    "attributes": {
+      "skin_type": "dull",
+      "concern": "brightening"
+    },
+    "specs": {
+      "Size": "30ml"
+    },
+    "tags": [
+      "serum",
+      "vitamin-c",
+      "brightening"
+    ]
+  },
+  {
+    "id": "p068",
+    "name": "GentleBaby Wash",
+    "brand": "PureCare",
+    "category": "Beauty",
+    "subcategory": "Personal Care",
+    "description": "Tear-free wash for sensitive baby skin.",
+    "price": 399,
+    "original_price": 499,
+    "rating": 4.6,
+    "review_count": 4500,
+    "popularity": 0.7,
+    "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+    "attributes": {
+      "skin_type": "sensitive"
+    },
+    "specs": {
+      "Size": "200ml"
+    },
+    "tags": [
+      "baby",
+      "wash",
+      "gentle"
+    ]
+  },
+  {
+    "id": "p069",
+    "name": "MatteLip Longwear",
+    "brand": "LuxeSkin",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "description": "Transfer-resistant matte lipstick for office looks.",
+    "price": 799,
+    "original_price": 999,
+    "rating": 4.3,
+    "review_count": 1600,
+    "popularity": 0.61,
+    "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Finish": "Matte"
+    },
+    "tags": [
+      "lipstick",
+      "matte",
+      "makeup"
+    ]
+  },
+  {
+    "id": "p070",
+    "name": "ScalpCare Anti-Dandruff",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "subcategory": "Hair",
+    "description": "Tea tree shampoo for oily scalp care.",
+    "price": 449,
+    "original_price": 549,
+    "rating": 4.2,
+    "review_count": 3200,
+    "popularity": 0.68,
+    "image_url": "https://images.unsplash.com/photo-1570194065650-d99fb4b38b17?w=600&q=80",
+    "attributes": {
+      "concern": "dandruff"
+    },
+    "specs": {
+      "Size": "250ml"
+    },
+    "tags": [
+      "shampoo",
+      "scalp",
+      "oily"
+    ]
+  },
+  {
+    "id": "p071",
+    "name": "HIIT Jump Rope Pro",
+    "brand": "FitPulse",
+    "category": "Sports",
+    "subcategory": "Cardio",
+    "description": "Weighted jump rope for home HIIT sessions.",
+    "price": 799,
+    "original_price": 999,
+    "rating": 4.4,
+    "review_count": 2700,
+    "popularity": 0.72,
+    "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Length": "Adjustable"
+    },
+    "tags": [
+      "jumprope",
+      "hiit",
+      "gym"
+    ]
+  },
+  {
+    "id": "p072",
+    "name": "FoamRoll Recovery",
+    "brand": "StrideLab",
+    "category": "Sports",
+    "subcategory": "Recovery",
+    "description": "High-density foam roller for post-run recovery.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.5,
+    "review_count": 1400,
+    "popularity": 0.6,
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80",
+    "attributes": {
+      "use_case": "running"
+    },
+    "specs": {
+      "Density": "Firm"
+    },
+    "tags": [
+      "foamroller",
+      "recovery",
+      "running"
+    ]
+  },
+  {
+    "id": "p073",
+    "name": "SwimLite Goggles",
+    "brand": "AquaPure",
+    "category": "Sports",
+    "subcategory": "Swimming",
+    "description": "Anti-fog goggles for lap swimming.",
+    "price": 899,
+    "original_price": 1199,
+    "rating": 4.3,
+    "review_count": 980,
+    "popularity": 0.55,
+    "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80",
+    "attributes": {
+      "use_case": "swimming"
+    },
+    "specs": {
+      "Lens": "UV"
+    },
+    "tags": [
+      "goggles",
+      "swim",
+      "sports"
+    ]
+  },
+  {
+    "id": "p074",
+    "name": "CycleLight USB Set",
+    "brand": "UrbanRide",
+    "category": "Sports",
+    "subcategory": "Cycling",
+    "description": "Front and rear USB lights for night commuting.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.4,
+    "review_count": 760,
+    "popularity": 0.52,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "attributes": {
+      "use_case": "cycling"
+    },
+    "specs": {
+      "Lumens": "400"
+    },
+    "tags": [
+      "lights",
+      "cycling",
+      "commute"
+    ]
+  },
+  {
+    "id": "p075",
+    "name": "ResistanceTube Kit",
+    "brand": "PowerLift",
+    "category": "Sports",
+    "subcategory": "Strength",
+    "description": "Door-anchor resistance tubes for home strength.",
+    "price": 1599,
+    "original_price": 1999,
+    "rating": 4.2,
+    "review_count": 1800,
+    "popularity": 0.63,
+    "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Levels": "5"
+    },
+    "tags": [
+      "resistance",
+      "home",
+      "gym"
+    ]
+  },
+  {
+    "id": "p076",
+    "name": "AromaDiffuser Ceramic",
+    "brand": "HomeLink",
+    "category": "Home",
+    "subcategory": "Wellness",
+    "description": "Ultrasonic diffuser with warm night light.",
+    "price": 2199,
+    "original_price": 2799,
+    "rating": 4.5,
+    "review_count": 2100,
+    "popularity": 0.67,
+    "image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80",
+    "attributes": {
+      "use_case": "home"
+    },
+    "specs": {
+      "Capacity": "300ml"
+    },
+    "tags": [
+      "diffuser",
+      "wellness",
+      "home"
+    ]
+  },
+  {
+    "id": "p077",
+    "name": "ChefBoard End-Grain",
+    "brand": "ChefEdge",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "End-grain chopping board for everyday prep.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.6,
+    "review_count": 640,
+    "popularity": 0.54,
+    "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Material": "Acacia"
+    },
+    "tags": [
+      "board",
+      "kitchen",
+      "chef"
+    ]
+  },
+  {
+    "id": "p078",
+    "name": "LinenBedding Set Queen",
+    "brand": "SleepNest",
+    "category": "Home",
+    "subcategory": "Bedding",
+    "description": "Breathable linen-blend sheet set for hot sleepers.",
+    "price": 4999,
+    "original_price": 5999,
+    "rating": 4.4,
+    "review_count": 890,
+    "popularity": 0.59,
+    "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80",
+    "attributes": {
+      "use_case": "sleep"
+    },
+    "specs": {
+      "Size": "Queen"
+    },
+    "tags": [
+      "bedding",
+      "linen",
+      "sleep"
+    ]
+  },
+  {
+    "id": "p079",
+    "name": "DeskOrganizer Bamboo",
+    "brand": "Lumen",
+    "category": "Home",
+    "subcategory": "Office",
+    "description": "Modular bamboo organizer for desks.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.3,
+    "review_count": 1500,
+    "popularity": 0.57,
+    "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Compartments": "6"
+    },
+    "tags": [
+      "organizer",
+      "desk",
+      "office"
+    ]
+  },
+  {
+    "id": "p080",
+    "name": "CastIron Skillet 10in",
+    "brand": "BakePro",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Pre-seasoned skillet for stovetop and oven.",
+    "price": 2499,
+    "original_price": 3199,
+    "rating": 4.7,
+    "review_count": 2300,
+    "popularity": 0.74,
+    "image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Size": "10 inch"
+    },
+    "tags": [
+      "skillet",
+      "castiron",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "p081",
+    "name": "MerinoCrew Socks 3pk",
+    "brand": "NordicWear",
+    "category": "Fashion",
+    "subcategory": "Apparel",
+    "description": "Temperature-regulating merino socks.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.5,
+    "review_count": 1100,
+    "popularity": 0.56,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "attributes": {
+      "use_case": "outdoor"
+    },
+    "specs": {
+      "Pack": "3"
+    },
+    "tags": [
+      "socks",
+      "merino",
+      "outdoor"
+    ]
+  },
+  {
+    "id": "p082",
+    "name": "CityBlazer Slim Fit",
+    "brand": "Boardroom",
+    "category": "Fashion",
+    "subcategory": "Apparel",
+    "description": "Lightweight blazer for smart-casual office days.",
+    "price": 5999,
+    "original_price": 7499,
+    "rating": 4.4,
+    "review_count": 420,
+    "popularity": 0.5,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Fit": "Slim"
+    },
+    "tags": [
+      "blazer",
+      "office",
+      "formal"
+    ]
+  },
+  {
+    "id": "p083",
+    "name": "WeekendDenim Jacket",
+    "brand": "TrailHiker",
+    "category": "Fashion",
+    "subcategory": "Apparel",
+    "description": "Soft-wash denim jacket for weekend outings.",
+    "price": 3499,
+    "original_price": 4299,
+    "rating": 4.3,
+    "review_count": 980,
+    "popularity": 0.61,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "attributes": {
+      "use_case": "casual"
+    },
+    "specs": {
+      "Wash": "Light"
+    },
+    "tags": [
+      "denim",
+      "jacket",
+      "casual"
+    ]
+  },
+  {
+    "id": "p084",
+    "name": "TravelPack Cube Set",
+    "brand": "UrbanSole",
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "description": "Compression packing cubes for light travel.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.6,
+    "review_count": 2600,
+    "popularity": 0.7,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "attributes": {
+      "use_case": "travel"
+    },
+    "specs": {
+      "Pieces": "4"
+    },
+    "tags": [
+      "packing",
+      "travel",
+      "cubes"
+    ]
+  },
+  {
+    "id": "p085",
+    "name": "SilkScarf Handprinted",
+    "brand": "HeritageWeave",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "description": "Handprinted silk scarf for festive and office wear.",
+    "price": 2299,
+    "original_price": 2899,
+    "rating": 4.7,
+    "review_count": 310,
+    "popularity": 0.45,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "attributes": {
+      "use_case": "festive"
+    },
+    "specs": {
+      "Material": "Silk"
+    },
+    "tags": [
+      "scarf",
+      "silk",
+      "ethnic"
+    ]
+  },
+  {
+    "id": "p086",
+    "name": "StandingDesk Converter",
+    "brand": "ErgoSit",
+    "category": "Furniture",
+    "subcategory": "Office",
+    "description": "Sit-stand desk converter for laptop workstations.",
+    "price": 8999,
+    "original_price": 10999,
+    "rating": 4.4,
+    "review_count": 670,
+    "popularity": 0.58,
+    "image_url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Height": "Adjustable"
+    },
+    "tags": [
+      "standing",
+      "desk",
+      "ergonomic"
+    ]
+  },
+  {
+    "id": "p087",
+    "name": "LoungeSofa 2-Seater",
+    "brand": "NestLiving",
+    "category": "Furniture",
+    "subcategory": "Living",
+    "description": "Compact 2-seater sofa for studio apartments.",
+    "price": 34999,
+    "original_price": 39999,
+    "rating": 4.5,
+    "review_count": 240,
+    "popularity": 0.49,
+    "image_url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600&q=80",
+    "attributes": {
+      "use_case": "home"
+    },
+    "specs": {
+      "Seats": "2"
+    },
+    "tags": [
+      "sofa",
+      "living",
+      "apartment"
+    ]
+  },
+  {
+    "id": "p088",
+    "name": "Bookshelf Oak 5-Tier",
+    "brand": "NestLiving",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "description": "Slim oak bookshelf for living rooms.",
+    "price": 7999,
+    "original_price": 9499,
+    "rating": 4.3,
+    "review_count": 510,
+    "popularity": 0.53,
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+    "attributes": {
+      "use_case": "home"
+    },
+    "specs": {
+      "Tiers": "5"
+    },
+    "tags": [
+      "bookshelf",
+      "oak",
+      "storage"
+    ]
+  },
+  {
+    "id": "p089",
+    "name": "FocusJournal Undated",
+    "brand": "NotePro",
+    "category": "Stationery",
+    "subcategory": "Notebooks",
+    "description": "Undated weekly planner for deep work blocks.",
+    "price": 699,
+    "original_price": 899,
+    "rating": 4.5,
+    "review_count": 1800,
+    "popularity": 0.65,
+    "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
+    "attributes": {
+      "use_case": "study"
+    },
+    "specs": {
+      "Pages": "144"
+    },
+    "tags": [
+      "planner",
+      "journal",
+      "productivity"
+    ]
+  },
+  {
+    "id": "p090",
+    "name": "DeskMat SoftFelt",
+    "brand": "KeyCraft",
+    "category": "Stationery",
+    "subcategory": "Desk",
+    "description": "XL felt desk mat for keyboard and mouse.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.4,
+    "review_count": 2200,
+    "popularity": 0.69,
+    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "attributes": {
+      "use_case": "programming"
+    },
+    "specs": {
+      "Size": "XL"
+    },
+    "tags": [
+      "deskmat",
+      "coding",
+      "office"
+    ]
+  },
+  {
+    "id": "p091",
+    "name": "BrushSet Watercolor 12",
+    "brand": "Artisan",
+    "category": "Stationery",
+    "subcategory": "Art",
+    "description": "Synthetic watercolor brush set for beginners.",
+    "price": 999,
+    "original_price": 1299,
+    "rating": 4.6,
+    "review_count": 860,
+    "popularity": 0.5,
+    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "attributes": {
+      "use_case": "art"
+    },
+    "specs": {
+      "Brushes": "12"
+    },
+    "tags": [
+      "watercolor",
+      "art",
+      "brushes"
+    ]
+  },
+  {
+    "id": "p092",
+    "name": "PetFeeder Auto 3L",
+    "brand": "PetJoy",
+    "category": "Pets",
+    "subcategory": "Feeders",
+    "description": "Programmable auto feeder for cats and small dogs.",
+    "price": 4499,
+    "original_price": 5499,
+    "rating": 4.3,
+    "review_count": 740,
+    "popularity": 0.55,
+    "image_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+    "attributes": {
+      "use_case": "pets"
+    },
+    "specs": {
+      "Capacity": "3L"
+    },
+    "tags": [
+      "feeder",
+      "pets",
+      "auto"
+    ]
+  },
+  {
+    "id": "p093",
+    "name": "CatTower Compact",
+    "brand": "PetJoy",
+    "category": "Pets",
+    "subcategory": "Furniture",
+    "description": "Space-saving cat tower with sisal posts.",
+    "price": 3999,
+    "original_price": 4799,
+    "rating": 4.4,
+    "review_count": 560,
+    "popularity": 0.52,
+    "image_url": "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?w=600&q=80",
+    "attributes": {
+      "use_case": "pets"
+    },
+    "specs": {
+      "Height": "120cm"
+    },
+    "tags": [
+      "cat",
+      "tower",
+      "pets"
+    ]
+  },
+  {
+    "id": "p094",
+    "name": "NoiseShield Desk Panels",
+    "brand": "ErgoSit",
+    "category": "Furniture",
+    "subcategory": "Office",
+    "description": "Acoustic desk panels for open-plan focus.",
+    "price": 5999,
+    "original_price": 6999,
+    "rating": 4.2,
+    "review_count": 290,
+    "popularity": 0.44,
+    "image_url": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "NRC": "0.7"
+    },
+    "tags": [
+      "acoustic",
+      "office",
+      "focus"
+    ]
+  },
+  {
+    "id": "p095",
+    "name": "SmartScale Body",
+    "brand": "FitPulse",
+    "category": "Electronics",
+    "subcategory": "Wearables",
+    "description": "Bluetooth body composition scale for fitness tracking.",
+    "price": 2999,
+    "original_price": 3699,
+    "rating": 4.3,
+    "review_count": 1900,
+    "popularity": 0.67,
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Metrics": "13"
+    },
+    "tags": [
+      "scale",
+      "fitness",
+      "smart"
+    ]
+  },
+  {
+    "id": "p096",
+    "name": "AirPurifier Compact",
+    "brand": "CleanBot",
+    "category": "Home",
+    "subcategory": "Appliances",
+    "description": "HEPA purifier for bedrooms up to 250 sq ft.",
+    "price": 8999,
+    "original_price": 10999,
+    "rating": 4.5,
+    "review_count": 1300,
+    "popularity": 0.71,
+    "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80",
+    "attributes": {
+      "use_case": "home"
+    },
+    "specs": {
+      "CADR": "250"
+    },
+    "tags": [
+      "purifier",
+      "hepa",
+      "home"
+    ]
+  },
+  {
+    "id": "p097",
+    "name": "InductionCooktop Single",
+    "brand": "BakePro",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Portable induction cooktop for hostels and studios.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.4,
+    "review_count": 2800,
+    "popularity": 0.75,
+    "image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Power": "2000W"
+    },
+    "tags": [
+      "induction",
+      "kitchen",
+      "portable"
+    ]
+  },
+  {
+    "id": "p098",
+    "name": "WirelessPresenter Laser",
+    "brand": "PixelForge",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "description": "USB-C presenter remote for demos and lectures.",
+    "price": 1799,
+    "original_price": 2299,
+    "rating": 4.2,
+    "review_count": 640,
+    "popularity": 0.47,
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Range": "30m"
+    },
+    "tags": [
+      "presenter",
+      "office",
+      "remote"
+    ]
+  },
+  {
+    "id": "p099",
+    "name": "TrailBottle Filter",
+    "brand": "AquaPure",
+    "category": "Sports",
+    "subcategory": "Hydration",
+    "description": "Filtered bottle for hiking and travel.",
+    "price": 1999,
+    "original_price": 2499,
+    "rating": 4.5,
+    "review_count": 980,
+    "popularity": 0.56,
+    "image_url": "https://images.unsplash.com/photo-1579722820308-d74e57ce3e79?w=600&q=80",
+    "attributes": {
+      "use_case": "hiking"
+    },
+    "specs": {
+      "Filter": "Carbon"
+    },
+    "tags": [
+      "bottle",
+      "filter",
+      "hiking"
+    ]
+  },
+  {
+    "id": "p100",
+    "name": "StudioMic USB Condenser",
+    "brand": "SoundPulse",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "description": "USB condenser mic for podcasts and calls.",
+    "price": 4999,
+    "original_price": 5999,
+    "rating": 4.6,
+    "review_count": 1500,
+    "popularity": 0.68,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Pattern": "Cardioid"
+    },
+    "tags": [
+      "mic",
+      "usb",
+      "podcast"
+    ]
+  },
+  {
+    "id": "p101",
+    "name": "YogaBlock Cork Pair",
+    "brand": "YogaFlow",
+    "category": "Sports",
+    "subcategory": "Yoga",
+    "description": "Natural cork blocks for alignment practice.",
+    "price": 999,
+    "original_price": 1299,
+    "rating": 4.5,
+    "review_count": 1200,
+    "popularity": 0.54,
+    "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&q=80",
+    "attributes": {
+      "use_case": "yoga"
+    },
+    "specs": {
+      "Material": "Cork"
+    },
+    "tags": [
+      "yoga",
+      "blocks",
+      "cork"
+    ]
+  },
+  {
+    "id": "p102",
+    "name": "ProteinBar Box 12",
+    "brand": "FitFuel",
+    "category": "Sports",
+    "subcategory": "Nutrition",
+    "description": "Low-sugar protein bars for post-gym snacks.",
+    "price": 1499,
+    "original_price": 1799,
+    "rating": 4.2,
+    "review_count": 3100,
+    "popularity": 0.72,
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Count": "12"
+    },
+    "tags": [
+      "protein",
+      "bars",
+      "gym"
+    ]
+  },
+  {
+    "id": "p103",
+    "name": "RainUmbrella Compact",
+    "brand": "TrailHiker",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "description": "Wind-resistant compact umbrella for commuting.",
+    "price": 899,
+    "original_price": 1199,
+    "rating": 4.3,
+    "review_count": 2400,
+    "popularity": 0.6,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+    "attributes": {
+      "use_case": "commute"
+    },
+    "specs": {
+      "Size": "Compact"
+    },
+    "tags": [
+      "umbrella",
+      "rain",
+      "commute"
+    ]
+  },
+  {
+    "id": "p104",
+    "name": "ReadingLamp Clamp",
+    "brand": "Lumen",
+    "category": "Home",
+    "subcategory": "Lighting",
+    "description": "Clamp LED lamp for headboards and desks.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.4,
+    "review_count": 1700,
+    "popularity": 0.58,
+    "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    "attributes": {
+      "use_case": "study"
+    },
+    "specs": {
+      "Modes": "3"
+    },
+    "tags": [
+      "lamp",
+      "reading",
+      "study"
+    ]
+  },
+  {
+    "id": "p105",
+    "name": "WalletMinimal RFID",
+    "brand": "UrbanSole",
+    "category": "Fashion",
+    "subcategory": "Accessories",
+    "description": "Slim RFID wallet for everyday carry.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.5,
+    "review_count": 2100,
+    "popularity": 0.63,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "RFID": "Yes"
+    },
+    "tags": [
+      "wallet",
+      "rfid",
+      "minimal"
+    ]
+  },
+  {
+    "id": "p106",
+    "name": "KidHelmet SoftShell",
+    "brand": "KidTech",
+    "category": "Sports",
+    "subcategory": "Safety",
+    "description": "Adjustable kids helmet for scooters and cycles.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.3,
+    "review_count": 760,
+    "popularity": 0.49,
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80",
+    "attributes": {
+      "use_case": "kids"
+    },
+    "specs": {
+      "Sizes": "S-M"
+    },
+    "tags": [
+      "helmet",
+      "kids",
+      "safety"
+    ]
+  },
+  {
+    "id": "p107",
+    "name": "EspressoTamper 58mm",
+    "brand": "BrewCraft",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Precision tamper for home espresso setups.",
+    "price": 1799,
+    "original_price": 2199,
+    "rating": 4.6,
+    "review_count": 430,
+    "popularity": 0.46,
+    "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    "attributes": {
+      "use_case": "coffee"
+    },
+    "specs": {
+      "Size": "58mm"
+    },
+    "tags": [
+      "tamper",
+      "espresso",
+      "coffee"
+    ]
+  },
+  {
+    "id": "p108",
+    "name": "WhiteboardGlass Mini",
+    "brand": "NotePro",
+    "category": "Stationery",
+    "subcategory": "Office",
+    "description": "Magnetic glass whiteboard for sprint planning.",
+    "price": 3999,
+    "original_price": 4799,
+    "rating": 4.4,
+    "review_count": 510,
+    "popularity": 0.51,
+    "image_url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Size": "60x40"
+    },
+    "tags": [
+      "whiteboard",
+      "office",
+      "planning"
+    ]
+  },
+  {
+    "id": "p109",
+    "name": "CampingStove Mini",
+    "brand": "TrailHiker",
+    "category": "Sports",
+    "subcategory": "Camping",
+    "description": "Ultralight canister stove for overnight treks.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.5,
+    "review_count": 680,
+    "popularity": 0.5,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "attributes": {
+      "use_case": "camping"
+    },
+    "specs": {
+      "Weight": "95g"
+    },
+    "tags": [
+      "stove",
+      "camping",
+      "trek"
+    ]
+  },
+  {
+    "id": "p110",
+    "name": "HairDryer Ionic",
+    "brand": "GlowLab",
+    "category": "Beauty",
+    "subcategory": "Hair",
+    "description": "Ionic dryer with cool-shot for daily styling.",
+    "price": 2499,
+    "original_price": 3199,
+    "rating": 4.3,
+    "review_count": 1900,
+    "popularity": 0.66,
+    "image_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80",
+    "attributes": {
+      "use_case": "home"
+    },
+    "specs": {
+      "Wattage": "1800W"
+    },
+    "tags": [
+      "dryer",
+      "hair",
+      "ionic"
+    ]
+  },
+  {
+    "id": "p111",
+    "name": "SSBottle Insulated 750",
+    "brand": "AquaPure",
+    "category": "Sports",
+    "subcategory": "Hydration",
+    "description": "Leak-proof bottle for office and gym.",
+    "price": 899,
+    "original_price": 1199,
+    "rating": 4.6,
+    "review_count": 5200,
+    "popularity": 0.81,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "attributes": {
+      "use_case": "gym"
+    },
+    "specs": {
+      "Capacity": "750ml"
+    },
+    "tags": [
+      "bottle",
+      "insulated",
+      "gym"
+    ]
+  },
+  {
+    "id": "p112",
+    "name": "LaptopSleeve 14 Felt",
+    "brand": "Campus",
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "description": "Padded felt sleeve for 14-inch laptops.",
+    "price": 999,
+    "original_price": 1299,
+    "rating": 4.4,
+    "review_count": 2700,
+    "popularity": 0.7,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
+    "attributes": {
+      "use_case": "college"
+    },
+    "specs": {
+      "Size": "14 inch"
+    },
+    "tags": [
+      "sleeve",
+      "laptop",
+      "college"
+    ]
+  },
+  {
+    "id": "p113",
+    "name": "PlantStand MidCentury",
+    "brand": "GreenThumb",
+    "category": "Home",
+    "subcategory": "Garden",
+    "description": "Two-tier plant stand for balconies.",
+    "price": 2499,
+    "original_price": 2999,
+    "rating": 4.5,
+    "review_count": 840,
+    "popularity": 0.53,
+    "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    "attributes": {
+      "use_case": "garden"
+    },
+    "specs": {
+      "Tiers": "2"
+    },
+    "tags": [
+      "plant",
+      "stand",
+      "balcony"
+    ]
+  },
+  {
+    "id": "p114",
+    "name": "DogLeash HandsFree",
+    "brand": "PetJoy",
+    "category": "Pets",
+    "subcategory": "Accessories",
+    "description": "Hands-free running leash for medium dogs.",
+    "price": 1299,
+    "original_price": 1599,
+    "rating": 4.3,
+    "review_count": 1100,
+    "popularity": 0.55,
+    "image_url": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
+    "attributes": {
+      "use_case": "pets"
+    },
+    "specs": {
+      "Length": "150cm"
+    },
+    "tags": [
+      "leash",
+      "dog",
+      "running"
+    ]
+  },
+  {
+    "id": "p115",
+    "name": "MidiKeyboard 25Key",
+    "brand": "SoundPulse",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "description": "USB MIDI keyboard for music production starters.",
+    "price": 4999,
+    "original_price": 5999,
+    "rating": 4.4,
+    "review_count": 720,
+    "popularity": 0.57,
+    "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80",
+    "attributes": {
+      "use_case": "music"
+    },
+    "specs": {
+      "Keys": "25"
+    },
+    "tags": [
+      "midi",
+      "keyboard",
+      "music"
+    ]
+  },
+  {
+    "id": "p116",
+    "name": "OfficePlant ZZ",
+    "brand": "GreenThumb",
+    "category": "Home",
+    "subcategory": "Garden",
+    "description": "Low-light ZZ plant perfect for desks.",
+    "price": 699,
+    "original_price": 899,
+    "rating": 4.6,
+    "review_count": 1600,
+    "popularity": 0.62,
+    "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    "attributes": {
+      "use_case": "office"
+    },
+    "specs": {
+      "Light": "Low"
+    },
+    "tags": [
+      "plant",
+      "zz",
+      "office"
+    ]
+  },
+  {
+    "id": "p117",
+    "name": "CompressionSleeve Arm",
+    "brand": "StrideLab",
+    "category": "Sports",
+    "subcategory": "Apparel",
+    "description": "Arm sleeve for runners and cyclists.",
+    "price": 699,
+    "original_price": 899,
+    "rating": 4.2,
+    "review_count": 980,
+    "popularity": 0.48,
+    "image_url": "https://images.unsplash.com/photo-1579722820308-d74e57ce3e79?w=600&q=80",
+    "attributes": {
+      "use_case": "running"
+    },
+    "specs": {
+      "Pair": "1"
+    },
+    "tags": [
+      "compression",
+      "running",
+      "sleeve"
+    ]
+  },
+  {
+    "id": "p118",
+    "name": "SpiceGrinder Electric",
+    "brand": "SpiceRoute",
+    "category": "Home",
+    "subcategory": "Kitchen",
+    "description": "Rechargeable grinder for fresh masalas.",
+    "price": 1499,
+    "original_price": 1899,
+    "rating": 4.4,
+    "review_count": 1400,
+    "popularity": 0.59,
+    "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80",
+    "attributes": {
+      "use_case": "cooking"
+    },
+    "specs": {
+      "Battery": "USB"
+    },
+    "tags": [
+      "grinder",
+      "spices",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "p119",
+    "name": "NoiseCancel Sleepbuds",
+    "brand": "AudioNova",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Soft sleepbuds for light sleepers.",
+    "price": 6999,
+    "original_price": 8499,
+    "rating": 4.3,
+    "review_count": 540,
+    "popularity": 0.52,
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
+    "attributes": {
+      "use_case": "sleep"
+    },
+    "specs": {
+      "Battery": "20h case"
+    },
+    "tags": [
+      "sleep",
+      "earbuds",
+      "quiet"
+    ]
+  },
+  {
+    "id": "p120",
+    "name": "CanvasTote Market",
+    "brand": "HeritageWeave",
+    "category": "Fashion",
+    "subcategory": "Bags",
+    "description": "Sturdy market tote with inner laptop pocket.",
+    "price": 899,
+    "original_price": 1199,
+    "rating": 4.5,
+    "review_count": 2300,
+    "popularity": 0.64,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "attributes": {
+      "use_case": "casual"
+    },
+    "specs": {
+      "Material": "Canvas"
+    },
+    "tags": [
+      "tote",
+      "market",
+      "casual"
+    ]
   }
 ]

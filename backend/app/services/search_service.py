@@ -101,6 +101,7 @@ def search_products(db: Session, request: SearchRequest) -> dict[str, Any]:
         "results": results,
         "suggestions": suggestions,
         "facets": {"categories": categories, "brands": brands},
+        "intent": ranked.get("intent"),
     }
 
 

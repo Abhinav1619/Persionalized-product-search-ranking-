@@ -1,0 +1,369 @@
+[
+  {
+    "id": "bd6541a0-e0b4-48c1-b1b0-5ebfd6f54bff",
+    "created_at": "2026-10-28T19:49:05.868354+00:00",
+    "query": "skincare products for oily skin",
+    "user_id": "demo-skincare",
+    "ranking_mode": "personalized",
+    "scoring_method": "demo_weighted_semantic_lexical_personalization",
+    "model_status": "demo_untrained_weights",
+    "pd_at_k": 1.0,
+    "intent": {
+      "raw_query": "skincare products for oily skin",
+      "min_price": null,
+      "max_price": null,
+      "terms": [
+        "skin",
+        "serum",
+        "moisturizer",
+        "face wash",
+        "sunscreen",
+        "toner",
+        "skincare",
+        "products",
+        "for",
+        "oily"
+      ],
+      "must_match_terms": [
+        "skincare"
+      ]
+    },
+    "result_count": 10,
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.7633,
+        "product": {
+          "id": "p010",
+          "name": "ClearSkin Oil-Control Gel",
+          "brand": "DermaPure",
+          "price": 599.0,
+          "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category; preferred brand; aligns with browsing interests; similar to recent interactions.",
+        "semantic_similarity": 0.6554,
+        "click_probability": 0.7513,
+        "atc_probability": 0.7666,
+        "purchase_probability": 0.7802
+      },
+      {
+        "rank": 2,
+        "score": 0.7528,
+        "product": {
+          "id": "p026",
+          "name": "SunShield SPF50 Gel Sunscreen",
+          "brand": "GlowLab",
+          "price": 699.0,
+          "image_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category; preferred brand; aligns with browsing interests; similar to recent interactions; high customer rating.",
+        "semantic_similarity": 0.6217,
+        "click_probability": 0.7385,
+        "atc_probability": 0.7579,
+        "purchase_probability": 0.7756
+      },
+      {
+        "rank": 3,
+        "score": 0.6985,
+        "product": {
+          "id": "p066",
+          "name": "PoreRefine Toner",
+          "brand": "DermaPure",
+          "price": 549.0,
+          "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category; preferred brand; aligns with browsing interests.",
+        "semantic_similarity": 0.6142,
+        "click_probability": 0.6874,
+        "atc_probability": 0.7011,
+        "purchase_probability": 0.7163
+      },
+      {
+        "rank": 4,
+        "score": 0.6905,
+        "product": {
+          "id": "p012",
+          "name": "HydraRich Cream for Dry Skin",
+          "brand": "DermaPure",
+          "price": 899.0,
+          "image_url": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category; preferred brand; aligns with browsing interests; high customer rating.",
+        "semantic_similarity": 0.6002,
+        "click_probability": 0.6784,
+        "atc_probability": 0.6925,
+        "purchase_probability": 0.7082
+      },
+      {
+        "rank": 5,
+        "score": 0.6791,
+        "product": {
+          "id": "p011",
+          "name": "Balance+ Mattifying Face Wash",
+          "brand": "GlowLab",
+          "price": 449.0,
+          "image_url": "https://images.unsplash.com/photo-1570194065650-d99fb4b38b17?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category; preferred brand; aligns with browsing interests; similar to recent interactions.",
+        "semantic_similarity": 0.5489,
+        "click_probability": 0.6617,
+        "atc_probability": 0.6836,
+        "purchase_probability": 0.7089
+      },
+      {
+        "rank": 6,
+        "score": 0.5964,
+        "product": {
+          "id": "p067",
+          "name": "VitaminC Bright Serum",
+          "brand": "GlowLab",
+          "price": 1299.0,
+          "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category; preferred brand; high customer rating.",
+        "semantic_similarity": 0.4356,
+        "click_probability": 0.5811,
+        "atc_probability": 0.6012,
+        "purchase_probability": 0.6146
+      },
+      {
+        "rank": 7,
+        "score": 0.5806,
+        "product": {
+          "id": "p027",
+          "name": "SilkGlow Night Serum",
+          "brand": "LuxeSkin",
+          "price": 1499.0,
+          "image_url": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong keyword / synonym match to your query; matches preferred category.",
+        "semantic_similarity": 0.5021,
+        "click_probability": 0.5824,
+        "atc_probability": 0.5821,
+        "purchase_probability": 0.5626
+      },
+      {
+        "rank": 8,
+        "score": 0.4836,
+        "product": {
+          "id": "p070",
+          "name": "ScalpCare Anti-Dandruff",
+          "brand": "GlowLab",
+          "price": 449.0,
+          "image_url": "https://images.unsplash.com/photo-1570194065650-d99fb4b38b17?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Strong semantic match to your query; matches preferred category; preferred brand; aligns with browsing interests.",
+        "semantic_similarity": 0.5587,
+        "click_probability": 0.4837,
+        "atc_probability": 0.497,
+        "purchase_probability": 0.5351
+      },
+      {
+        "rank": 9,
+        "score": 0.387,
+        "product": {
+          "id": "p068",
+          "name": "GentleBaby Wash",
+          "brand": "PureCare",
+          "price": 399.0,
+          "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Moderate semantic relevance; matches preferred category; high customer rating.",
+        "semantic_similarity": 0.4315,
+        "click_probability": 0.395,
+        "atc_probability": 0.4048,
+        "purchase_probability": 0.4229
+      },
+      {
+        "rank": 10,
+        "score": 0.3409,
+        "product": {
+          "id": "p069",
+          "name": "MatteLip Longwear",
+          "brand": "LuxeSkin",
+          "price": 799.0,
+          "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80",
+          "category": "Beauty"
+        },
+        "why": "Partial keyword/semantic overlap; matches preferred category.",
+        "semantic_similarity": 0.3487,
+        "click_probability": 0.3431,
+        "atc_probability": 0.3563,
+        "purchase_probability": 0.3779
+      }
+    ],
+    "comparison": {
+      "relevance_ids": [
+        "p010",
+        "p026",
+        "p066",
+        "p012",
+        "p011",
+        "p027",
+        "p067",
+        "p070",
+        "p068",
+        "p069"
+      ],
+      "personalized_ids": [
+        "p010",
+        "p026",
+        "p066",
+        "p012",
+        "p011",
+        "p067",
+        "p027",
+        "p070",
+        "p068",
+        "p069"
+      ],
+      "position_changes": [
+        {
+          "product_id": "p067",
+          "relevance_rank": 7,
+          "personalized_rank": 6,
+          "delta": 1
+        },
+        {
+          "product_id": "p027",
+          "relevance_rank": 6,
+          "personalized_rank": 7,
+          "delta": -1
+        }
+      ],
+      "pd_at_10": 1.0,
+      "interpretation": "Top-10 overlap PD@10 = 1.00. Lower overlap means stronger personalization effect."
+    }
+  },
+  {
+    "id": "959be742-6a57-4b1d-acd0-bb64812c73e7",
+    "created_at": "2026-10-28T19:47:47.456180+00:00",
+    "query": "buds under 5k",
+    "user_id": "demo-developer",
+    "ranking_mode": "personalized",
+    "scoring_method": "demo_weighted_semantic_lexical_personalization",
+    "model_status": "demo_untrained_weights",
+    "pd_at_k": 1.0,
+    "intent": {
+      "raw_query": "buds under 5k",
+      "min_price": null,
+      "max_price": 5000.0,
+      "terms": [
+        "earbud",
+        "earbuds",
+        "earphone",
+        "earphones",
+        "headphone",
+        "headphones",
+        "airpod",
+        "tws",
+        "buds",
+        "under",
+        "5k"
+      ],
+      "must_match_terms": [
+        "earbuds",
+        "earphones",
+        "headphones",
+        "buds"
+      ]
+    },
+    "result_count": 4,
+    "top_results": [
+      {
+        "rank": 1,
+        "score": 0.6122,
+        "product": {
+          "id": "p002",
+          "name": "BeatFlex Sport Earbuds Pro",
+          "brand": "BeatFlex",
+          "price": 2799.0,
+          "image_url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&q=80",
+          "category": "Electronics"
+        },
+        "why": "Within budget (≤ ₹5000); strong keyword / synonym match to your query; matches preferred category; aligns with browsing interests.",
+        "semantic_similarity": 0.4282,
+        "click_probability": 0.6029,
+        "atc_probability": 0.6144,
+        "purchase_probability": 0.6024
+      },
+      {
+        "rank": 2,
+        "score": 0.5872,
+        "product": {
+          "id": "p056",
+          "name": "NovaBuds Lite ANC",
+          "brand": "AudioNova",
+          "price": 4499.0,
+          "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&q=80",
+          "category": "Electronics"
+        },
+        "why": "Within budget (≤ ₹5000); strong keyword / synonym match to your query; matches preferred category.",
+        "semantic_similarity": 0.4048,
+        "click_probability": 0.5804,
+        "atc_probability": 0.5889,
+        "purchase_probability": 0.5698
+      },
+      {
+        "rank": 3,
+        "score": 0.4195,
+        "product": {
+          "id": "p001",
+          "name": "AeroFit Wireless Gym Headphones",
+          "brand": "SoundPulse",
+          "price": 3499.0,
+          "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80",
+          "category": "Electronics"
+        },
+        "why": "Within budget (≤ ₹5000); strong keyword / synonym match to your query; matches preferred category; high customer rating.",
+        "semantic_similarity": 0.2662,
+        "click_probability": 0.4104,
+        "atc_probability": 0.4331,
+        "purchase_probability": 0.4465
+      },
+      {
+        "rank": 4,
+        "score": 0.2581,
+        "product": {
+          "id": "p051",
+          "name": "BassBoom Portable Speaker",
+          "brand": "SoundPulse",
+          "price": 3999.0,
+          "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&q=80",
+          "category": "Electronics"
+        },
+        "why": "Within budget (≤ ₹5000); partial keyword/semantic overlap; matches preferred category.",
+        "semantic_similarity": 0.2934,
+        "click_probability": 0.2614,
+        "atc_probability": 0.281,
+        "purchase_probability": 0.3177
+      }
+    ],
+    "comparison": {
+      "relevance_ids": [
+        "p002",
+        "p056",
+        "p001",
+        "p051"
+      ],
+      "personalized_ids": [
+        "p002",
+        "p056",
+        "p001",
+        "p051"
+      ],
+      "position_changes": [],
+      "pd_at_10": 1.0,
+      "interpretation": "Top-10 overlap PD@10 = 1.00. Lower overlap means stronger personalization effect."
+    }
+  }
+]
